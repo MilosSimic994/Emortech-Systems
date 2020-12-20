@@ -71,7 +71,7 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   height: 80%;
 }
@@ -81,20 +81,26 @@ main {
   font-weight: 700;
 }
 
-.container form {
+.container form div {
   display: flex;
   flex-direction: column;
 }
 
-.container form label {
+.container form div label {
   font-size: 24px;
   font-weight: 600;
 }
 
-.container form input {
+.container form div input {
   margin: 20px 0;
   border: 2px solid black;
   padding: 10px 0;
+}
+
+.container form div small {
+  margin: 0;
+  padding: 0;
+  color: red;
 }
 
 .container .btn {
@@ -107,6 +113,7 @@ main {
   border-radius: 8px;
   font-size: 1.5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 footer {

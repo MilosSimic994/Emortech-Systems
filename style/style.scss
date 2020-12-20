@@ -72,7 +72,7 @@ main {
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-start;
   height: 80%;
 
@@ -81,7 +81,7 @@ main {
     font-weight: 700;
   }
 
-  form {
+  form div {
     display: flex;
     flex-direction: column;
     label {
@@ -93,6 +93,12 @@ main {
       margin: 20px 0;
       border: 2px solid black;
       padding: 10px 0;
+    }
+
+    small {
+      margin: 0;
+      padding: 0;
+      color: red;
     }
   }
 
@@ -106,6 +112,7 @@ main {
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
   }
 }
 
