@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #33a0d9;
+  padding: 10px 40px;
+}
+
+header .logo {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-weight: 900;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li {
+  padding: 10px 50px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+header nav ul .login {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+main {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 80%;
+}
+
+.container h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container form label {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container form input {
+  margin: 20px 0;
+  border: 2px solid black;
+  padding: 10px 0;
+}
+
+.container .btn {
+  width: 100%;
+  background-color: black;
+  padding: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #33a0d9;
+  width: 100vw;
+  padding-left: 150px;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer ul li {
+  padding: 20px 15px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=style.css.map */
